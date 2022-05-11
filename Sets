@@ -1,0 +1,12 @@
+usuarios_data_science = {15, 23, 64, 88}
+usuarios_machine_learning = {12, 15, 23, 99}
+
+assistiram = usuarios_machine_learning | usuarios_data_science
+assistiram = usuarios_machine_learning & usuarios_data_science
+assistiram = usuarios_machine_learning - usuarios_data_science
+
+fez_ml_e_nao_dt = usuarios_machine_learning - usuarios_data_science
+print(23 in fez_ml_e_nao_dt)
+
+print(assistiram)
+
